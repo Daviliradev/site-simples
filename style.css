@@ -85,4 +85,18 @@ footer {
 
 .links-contato a:hover {
     transform: scale(1.05);
+} 
+@media (max-widht768px) {
+    header { 
+        flex-direction: column;
+        gap:10px;
+    }
+    .cards {
+        flex-direction:column;
+        align-items: center;
+    }
+    .card { 
+        width:90%;
+    }
 }
+
